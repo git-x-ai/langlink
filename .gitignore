@@ -1,5 +1,8 @@
 # Large files and build artifacts
-CCC Suite Rules/
+CCC Suite Rules/dist-*/
+CCC Suite Rules/dist-electron/
+CCC Suite Rules/node_modules/
+CCC Suite Rules/build/
 releases/
 
 # OS files
@@ -18,3 +21,10 @@ npm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
