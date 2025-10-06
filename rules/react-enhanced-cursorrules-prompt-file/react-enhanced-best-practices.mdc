@@ -1,0 +1,137 @@
+---
+description: React best practices and patterns for modern web applications - Enhanced with advanced patterns, performance optimization, and enterprise-grade practices
+globs: **/*.tsx, **/*.jsx, components/**/*, src/**/*.tsx, src/**/*.jsx
+---
+
+# React Advanced Best Practices
+
+## Advanced Component Architecture
+- Use functional components with proper TypeScript integration
+- Keep components small, focused, and single-responsibility
+- Extract reusable logic into custom hooks with proper typing
+- Use composition over inheritance with compound components
+- Implement proper prop types with TypeScript interfaces
+- Split large components into smaller, focused ones with proper boundaries
+- Use proper component composition patterns (render props, HOCs)
+- Implement proper component lifecycle management
+- Use proper component communication patterns
+
+## Advanced Hooks & State Management
+- Follow the Rules of Hooks with proper dependency management
+- Use custom hooks for reusable logic with proper TypeScript typing
+- Keep hooks focused, simple, and well-tested
+- Use appropriate dependency arrays in useEffect with proper cleanup
+- Implement proper cleanup in useEffect to prevent memory leaks
+- Avoid nested hooks and complex hook dependencies
+- Use useReducer for complex state logic with proper typing
+- Implement proper state persistence and hydration
+- Use proper state management libraries (Zustand, Redux Toolkit, Jotai)
+- Implement proper state synchronization and conflict resolution
+
+## Performance Optimization & Core Web Vitals
+- Implement proper memoization (useMemo, useCallback) with correct dependencies
+- Use React.memo for expensive components with proper comparison functions
+- Avoid unnecessary re-renders with proper state management
+- Implement proper lazy loading with Suspense and error boundaries
+- Use proper key props in lists for optimal reconciliation
+- Profile and optimize render performance with React DevTools
+- Implement proper code splitting and dynamic imports
+- Use proper virtualization for large lists (react-window, react-virtualized)
+- Implement proper image optimization and lazy loading
+- Use proper service worker patterns for offline functionality
+
+## Advanced Forms & User Experience
+- Use controlled components with proper validation and error handling
+- Implement comprehensive form validation with libraries (React Hook Form, Formik)
+- Handle form submission states with proper loading and error states
+- Show appropriate loading and error states with proper UX patterns
+- Use form libraries for complex forms with proper accessibility
+- Implement proper form accessibility (ARIA labels, keyboard navigation)
+- Use proper file upload handling with progress indicators
+- Implement proper form state persistence and recovery
+- Use proper form analytics and user behavior tracking
+- Implement proper form security (CSRF protection, input sanitization)
+
+## Advanced Error Handling & Resilience
+- Implement comprehensive Error Boundaries with proper fallback UI
+- Handle async errors properly with proper error boundaries
+- Show user-friendly error messages with proper internationalization
+- Implement proper fallback UI with graceful degradation
+- Log errors appropriately with proper error tracking (Sentry, LogRocket)
+- Handle edge cases gracefully with proper validation
+- Implement proper retry mechanisms for failed operations
+- Use proper error recovery patterns and user guidance
+- Implement proper error reporting and monitoring
+- Use proper error analytics and debugging tools
+
+## Comprehensive Testing Strategy
+- Write comprehensive unit tests for components with proper coverage
+- Implement integration tests for complex flows with proper mocking
+- Use React Testing Library with proper best practices
+- Test user interactions with proper accessibility testing
+- Test error scenarios with proper edge case coverage
+- Implement proper mock data and test fixtures
+- Use proper visual regression testing (Chromatic, Percy)
+- Implement proper E2E testing with Playwright or Cypress
+- Use proper performance testing and monitoring
+- Implement proper test automation and CI/CD integration
+
+## Advanced Accessibility & Inclusive Design
+- Use semantic HTML elements with proper ARIA attributes
+- Implement comprehensive ARIA attributes for complex components
+- Ensure keyboard navigation with proper focus management
+- Test with screen readers and assistive technologies
+- Handle focus management with proper accessibility patterns
+- Provide proper alt text for images with descriptive content
+- Implement proper color contrast and visual accessibility
+- Use proper motion and animation accessibility
+- Implement proper internationalization and localization
+- Use proper accessibility testing and monitoring tools
+
+## Advanced Code Organization & Architecture
+- Group related components together with proper feature organization
+- Use proper file naming conventions with consistent patterns
+- Implement proper directory structure with clear separation of concerns
+- Keep styles close to components with proper CSS-in-JS or CSS modules
+- Use proper imports/exports with barrel exports and tree shaking
+- Document complex component logic with proper JSDoc comments
+- Implement proper design system patterns and component libraries
+- Use proper micro-frontend architecture when appropriate
+- Implement proper component versioning and migration strategies
+- Use proper code review processes and quality gates
+
+## Security & Best Practices
+- Implement proper input sanitization and validation
+- Use proper authentication and authorization patterns
+- Implement proper CSRF protection and security headers
+- Use proper environment variable management
+- Implement proper logging and monitoring
+- Use proper dependency management and security scanning
+- Implement proper content security policy (CSP)
+- Use proper rate limiting and abuse prevention
+- Implement proper data encryption and secure communication
+- Use proper security testing and vulnerability assessment
+
+## Performance Monitoring & Analytics
+- Implement proper performance monitoring and alerting
+- Use proper analytics and user behavior tracking
+- Implement proper A/B testing and feature flags
+- Use proper error tracking and monitoring
+- Implement proper user feedback and analytics
+- Use proper conversion tracking and optimization
+- Implement proper accessibility monitoring
+- Use proper SEO monitoring and optimization
+- Implement proper business intelligence and reporting
+- Use proper performance budgets and monitoring
+
+## Development Workflow & DevOps
+- Use proper TypeScript configuration and strict mode
+- Implement proper ESLint and Prettier configuration
+- Use proper Git hooks and pre-commit checks
+- Implement proper CI/CD pipelines with proper testing
+- Use proper environment management and deployment
+- Implement proper monitoring and alerting
+- Use proper backup and disaster recovery strategies
+- Implement proper documentation and knowledge sharing
+- Use proper code review processes and standards
+- Implement proper team collaboration and communication tools 

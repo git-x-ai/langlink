@@ -1,0 +1,126 @@
+---
+description: FastAPI best practices and patterns for building modern Python web APIs - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.py, app/**/*.py, api/**/*.py, src/**/*.py, main.py, requirements.txt
+---
+
+# FastAPI Advanced Best Practices
+
+## Advanced Project Structure & Architecture
+- Use proper directory structure with clear separation of concerns
+- Implement proper module organization with dependency injection
+- Use proper dependency injection with comprehensive patterns
+- Keep routes organized by domain with proper API versioning
+- Implement proper middleware with comprehensive error handling
+- Use proper configuration management with environment variables
+- Implement proper microservice architecture when appropriate
+- Use proper clean architecture principles with proper layers
+- Implement proper domain-driven design patterns
+- Use proper hexagonal architecture with proper ports and adapters
+
+## Advanced API Design & REST Patterns
+- Use proper HTTP methods with comprehensive status codes
+- Implement proper status codes with consistent error responses
+- Use proper request/response models with comprehensive validation
+- Implement proper validation with detailed error messages
+- Use proper error handling with comprehensive error responses
+- Document APIs with comprehensive OpenAPI/Swagger documentation
+- Implement proper API versioning with backward compatibility
+- Use proper rate limiting with comprehensive monitoring
+- Implement proper API analytics and usage tracking
+- Use proper API security with comprehensive protection
+
+## Advanced Models & Data Validation
+- Use Pydantic models with comprehensive validation rules
+- Implement proper validation with custom validators
+- Use proper type hints with comprehensive typing
+- Keep models organized with proper inheritance patterns
+- Use proper inheritance with comprehensive model composition
+- Implement proper serialization with custom serializers
+- Use proper model versioning with proper migration strategies
+- Implement proper model documentation with comprehensive examples
+- Use proper model testing with comprehensive coverage
+- Implement proper model performance optimization
+
+## Advanced Database & ORM Integration
+- Use proper ORM (SQLAlchemy) with comprehensive configuration
+- Implement proper migrations with version control and rollback
+- Use proper connection pooling with monitoring and optimization
+- Implement proper transactions with proper isolation levels
+- Use proper query optimization with comprehensive profiling
+- Handle database errors properly with comprehensive error handling
+- Implement proper database monitoring and alerting
+- Use proper database security with comprehensive protection
+- Implement proper database backup and recovery strategies
+- Use proper database performance tuning and optimization
+
+## Advanced Authentication & Authorization
+- Implement proper JWT authentication with comprehensive security
+- Use proper password hashing with proper salt management
+- Implement proper role-based access control with permissions
+- Use proper session management with comprehensive security
+- Implement proper OAuth2 with comprehensive integration
+- Handle authentication errors properly with comprehensive error handling
+- Implement proper multi-factor authentication when needed
+- Use proper API key management with comprehensive security
+- Implement proper user management with comprehensive features
+- Use proper security monitoring and alerting
+
+## Advanced Security & Best Practices
+- Implement proper CORS with comprehensive configuration
+- Use proper rate limiting with comprehensive monitoring
+- Implement proper input validation with comprehensive sanitization
+- Use proper security headers with comprehensive policies
+- Handle security errors properly with comprehensive error handling
+- Implement proper logging with comprehensive security
+- Use proper dependency scanning and vulnerability management
+- Implement proper security testing and penetration testing
+- Use proper compliance and regulatory requirements
+- Implement proper incident response and recovery
+
+## Advanced Performance & Optimization
+- Use proper caching with comprehensive invalidation strategies
+- Implement proper async operations with comprehensive error handling
+- Use proper background tasks with comprehensive monitoring
+- Implement proper connection pooling with comprehensive optimization
+- Use proper query optimization with comprehensive profiling
+- Monitor performance metrics with comprehensive alerting
+- Implement proper load balancing and scaling strategies
+- Use proper CDN integration with comprehensive optimization
+- Implement proper performance testing and benchmarking
+- Use proper performance monitoring and alerting
+
+## Advanced Testing & Quality Assurance
+- Write proper unit tests with comprehensive coverage
+- Implement proper integration tests with comprehensive scenarios
+- Use proper test fixtures with comprehensive data management
+- Implement proper mocking with comprehensive test isolation
+- Test error scenarios with comprehensive edge case coverage
+- Use proper test coverage with comprehensive reporting
+- Implement proper E2E testing with comprehensive scenarios
+- Use proper performance testing and benchmarking
+- Implement proper security testing and vulnerability assessment
+- Use proper test automation and CI/CD integration
+
+## Advanced Deployment & DevOps
+- Use proper Docker configuration with comprehensive optimization
+- Implement proper CI/CD with comprehensive testing and deployment
+- Use proper environment variables with comprehensive management
+- Implement proper logging with comprehensive monitoring
+- Use proper monitoring with comprehensive alerting
+- Handle deployment errors properly with comprehensive error handling
+- Implement proper container orchestration with comprehensive scaling
+- Use proper infrastructure as code with comprehensive automation
+- Implement proper backup and disaster recovery strategies
+- Use proper security scanning and compliance monitoring
+
+## Advanced Documentation & Knowledge Management
+- Use proper docstrings with comprehensive documentation
+- Implement proper API documentation with comprehensive examples
+- Use proper type hints with comprehensive documentation
+- Keep documentation updated with comprehensive maintenance
+- Document error scenarios with comprehensive examples
+- Use proper versioning with comprehensive change management
+- Implement proper documentation automation with comprehensive tools
+- Use proper knowledge sharing and team collaboration
+- Implement proper documentation testing and validation
+- Use proper documentation accessibility and usability 

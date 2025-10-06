@@ -1,0 +1,189 @@
+---
+description: Comprehensive Gitflow workflow rules and best practices for professional software development - Enhanced with advanced patterns, enterprise practices, and team collaboration strategies
+globs: **/*, .git/**/*, .github/**/*
+alwaysApply: true
+---
+
+# Gitflow Advanced Workflow Rules
+
+## Advanced Main Branches & Protection
+
+### main (or master) Branch
+- Contains production-ready code with comprehensive testing
+- Never commit directly to main with proper branch protection
+- Only accepts merges from:
+  - hotfix/* branches with proper emergency procedures
+  - release/* branches with proper quality gates
+- Must be tagged with semantic version number after each merge
+- Implement proper branch protection rules with comprehensive security
+- Use proper automated testing and quality gates
+- Implement proper deployment automation with comprehensive monitoring
+- Use proper rollback procedures with comprehensive testing
+- Implement proper security scanning and compliance checks
+- Use proper documentation and changelog management
+
+### develop Branch
+- Main development branch with comprehensive integration testing
+- Contains latest delivered development changes with proper validation
+- Source branch for feature branches with proper branching strategies
+- Never commit directly to develop with proper protection rules
+- Implement proper continuous integration with comprehensive testing
+- Use proper automated quality checks and code analysis
+- Implement proper dependency management and security scanning
+- Use proper performance testing and monitoring
+- Implement proper documentation and knowledge sharing
+- Use proper team collaboration and communication tools
+
+## Advanced Supporting Branches & Strategies
+
+### feature/* Branches
+- Branch from: develop with proper synchronization
+- Merge back into: develop with proper code review
+- Naming convention: feature/[issue-id]-descriptive-name
+- Example: feature/123-user-authentication
+- Must be up-to-date with develop before creating PR
+- Delete after merge with proper cleanup procedures
+- Implement proper feature flags and toggles when needed
+- Use proper testing and validation for each feature
+- Implement proper documentation and examples
+- Use proper performance testing and optimization
+
+### release/* Branches
+- Branch from: develop with proper preparation
+- Merge back into: main and develop with proper procedures
+- Naming convention: release/vX.Y.Z with semantic versioning
+- Example: release/v1.2.0
+- Only bug fixes, documentation, and release-oriented tasks
+- No new features with proper scope management
+- Delete after merge with proper cleanup
+- Implement proper release testing and validation
+- Use proper release notes and documentation
+- Implement proper rollback procedures and testing
+
+### hotfix/* Branches
+- Branch from: main with proper emergency procedures
+- Merge back into: main and develop with proper synchronization
+- Naming convention: hotfix/vX.Y.Z with proper versioning
+- Example: hotfix/v1.2.1
+- Only for urgent production fixes with proper prioritization
+- Delete after merge with proper cleanup
+- Implement proper emergency response procedures
+- Use proper testing and validation for hotfixes
+- Implement proper communication and notification
+- Use proper monitoring and alerting for production issues
+
+## Advanced Commit Message Standards
+
+### Commit Message Format
+- Format: `type(scope): description` with proper conventions
+- Types with comprehensive definitions:
+  - feat: New feature with proper documentation
+  - fix: Bug fix with proper testing
+  - docs: Documentation changes with proper review
+  - style: Formatting, missing semicolons, etc.
+  - refactor: Code refactoring with proper testing
+  - test: Adding tests with proper coverage
+  - chore: Maintenance tasks with proper documentation
+  - perf: Performance improvements with proper benchmarking
+  - ci: CI/CD changes with proper testing
+  - build: Build system changes with proper validation
+
+### Advanced Commit Practices
+- Use proper commit message templates and validation
+- Implement proper commit signing and verification
+- Use proper commit hooks and pre-commit checks
+- Implement proper commit history management
+- Use proper commit squashing and rebasing strategies
+- Implement proper commit documentation and examples
+- Use proper commit review and approval processes
+- Implement proper commit testing and validation
+- Use proper commit security and compliance
+- Implement proper commit monitoring and alerting
+
+## Advanced Version Control & Semantic Versioning
+
+### Semantic Versioning Standards
+- MAJOR version for incompatible API changes with proper migration
+- MINOR version for backwards-compatible functionality with proper testing
+- PATCH version for backwards-compatible bug fixes with proper validation
+- Implement proper version management and automation
+- Use proper version documentation and changelog
+- Implement proper version testing and validation
+- Use proper version deployment and rollback
+- Implement proper version monitoring and alerting
+- Use proper version compliance and security
+- Implement proper version analytics and reporting
+
+## Advanced Pull Request Rules & Quality Gates
+
+### Pull Request Requirements
+1. All changes must go through Pull Requests with proper review
+2. Required approvals: minimum 2 with proper expertise
+3. CI checks must pass with comprehensive testing
+4. No direct commits to protected branches (main, develop)
+5. Branch must be up to date before merging with proper synchronization
+6. Delete branch after merge with proper cleanup
+7. Implement proper code review and quality assessment
+8. Use proper testing and validation for all changes
+9. Implement proper documentation and examples
+10. Use proper security scanning and compliance checks
+
+### Advanced Quality Gates
+- Implement comprehensive automated testing
+- Use proper code quality analysis and metrics
+- Implement proper security scanning and vulnerability assessment
+- Use proper performance testing and benchmarking
+- Implement proper accessibility testing and compliance
+- Use proper documentation and knowledge sharing
+- Implement proper team collaboration and communication
+- Use proper project management and tracking
+- Implement proper monitoring and alerting
+- Use proper compliance and regulatory requirements
+
+## Advanced Branch Protection & Security
+
+### main & develop Branch Protection
+- Require pull request reviews with proper expertise
+- Require status checks to pass with comprehensive testing
+- Require branches to be up to date with proper synchronization
+- Include administrators in restrictions with proper access control
+- No force pushes with proper security measures
+- No deletions with proper protection
+- Implement proper security scanning and compliance
+- Use proper monitoring and alerting
+- Implement proper audit logging and reporting
+- Use proper backup and disaster recovery
+
+## Advanced Release Process & Automation
+
+### Release Process Steps
+1. Create release branch from develop with proper preparation
+2. Bump version numbers with proper automation
+3. Fix any release-specific issues with proper testing
+4. Create PR to main with proper quality gates
+5. After merge to main:
+   - Tag release with proper automation
+   - Merge back to develop with proper synchronization
+   - Delete release branch with proper cleanup
+6. Implement proper release testing and validation
+7. Use proper release documentation and communication
+8. Implement proper release monitoring and alerting
+9. Use proper release rollback procedures and testing
+10. Implement proper release analytics and reporting
+
+## Advanced Hotfix Process & Emergency Response
+
+### Hotfix Process Steps
+1. Create hotfix branch from main with proper emergency procedures
+2. Fix the issue with proper testing and validation
+3. Bump patch version with proper automation
+4. Create PR to main with proper quality gates
+5. After merge to main:
+   - Tag release with proper automation
+   - Merge back to develop with proper synchronization
+   - Delete hotfix branch with proper cleanup
+6. Implement proper emergency response procedures
+7. Use proper communication and notification
+8. Implement proper monitoring and alerting
+9. Use proper post-incident review and improvement
+10. Implement proper prevention and mitigation strategies 

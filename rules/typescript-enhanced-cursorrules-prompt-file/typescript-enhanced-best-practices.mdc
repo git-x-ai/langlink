@@ -1,0 +1,151 @@
+---
+description: TypeScript coding standards and best practices for modern web development - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.ts, **/*.tsx, **/*.d.ts, src/**/*.ts, src/**/*.tsx, app/**/*.ts, app/**/*.tsx
+alwaysApply: true
+---
+
+# TypeScript Advanced Best Practices
+
+## Advanced Type System & Type Safety
+- Prefer interfaces over types for object definitions with proper inheritance
+- Use type for unions, intersections, and mapped types with proper constraints
+- Avoid using `any`, prefer `unknown` for unknown types with proper type guards
+- Use strict TypeScript configuration with comprehensive compiler options
+- Leverage TypeScript's built-in utility types with proper understanding
+- Use generics for reusable type patterns with proper constraints
+- Implement proper type narrowing and type guards
+- Use proper conditional types and template literal types
+- Implement proper branded types for domain modeling
+- Use proper type-level programming techniques
+
+## Advanced Naming Conventions & Code Style
+- Use PascalCase for type names and interfaces with descriptive names
+- Use camelCase for variables and functions with clear intent
+- Use UPPER_CASE for constants with proper grouping
+- Use descriptive names with auxiliary verbs (e.g., isLoading, hasError)
+- Prefix interfaces for React props with 'Props' (e.g., ButtonProps)
+- Use proper Hungarian notation for specific contexts
+- Implement proper namespace organization
+- Use proper module naming conventions
+- Implement proper enum naming patterns
+- Use proper generic parameter naming
+
+## Advanced Code Organization & Architecture
+- Keep type definitions close to where they're used with proper scoping
+- Export types and interfaces from dedicated type files when shared
+- Use barrel exports (index.ts) for organizing exports with proper structure
+- Place shared types in a `types` directory with proper categorization
+- Co-locate component props with their components for better maintainability
+- Implement proper module organization and dependency management
+- Use proper namespace organization for large codebases
+- Implement proper type declaration files (.d.ts) with proper documentation
+- Use proper ambient module declarations
+- Implement proper type-only imports and exports
+
+## Advanced Function Patterns & Error Handling
+- Use explicit return types for public functions with proper documentation
+- Use arrow functions for callbacks and methods with proper typing
+- Implement comprehensive error handling with custom error types
+- Use function overloads for complex type scenarios with proper documentation
+- Prefer async/await over Promises with proper error handling
+- Implement proper Result types for operations that can fail
+- Use proper error boundaries with typed error handling
+- Implement proper try-catch blocks with typed catch clauses
+- Handle Promise rejections properly with proper error propagation
+- Use proper functional programming patterns with TypeScript
+
+## Advanced TypeScript Configuration & Tooling
+- Enable strict mode in tsconfig.json with comprehensive options
+- Use readonly for immutable properties with proper enforcement
+- Leverage discriminated unions for type safety with proper patterns
+- Use type guards for runtime type checking with proper implementation
+- Implement proper null checking with strict null checks
+- Avoid type assertions unless necessary with proper justification
+- Use proper path mapping and module resolution
+- Implement proper build optimization and tree shaking
+- Use proper source map configuration for debugging
+- Implement proper incremental compilation and caching
+
+## Advanced Error Handling & Resilience Patterns
+- Create comprehensive custom error types for domain-specific errors
+- Use Result types for operations that can fail with proper error handling
+- Implement proper error boundaries with typed error handling
+- Use try-catch blocks with typed catch clauses and proper error recovery
+- Handle Promise rejections properly with proper error propagation
+- Implement proper error logging and monitoring
+- Use proper error recovery patterns and fallback strategies
+- Implement proper error analytics and debugging
+- Use proper error tracking and alerting
+- Implement proper error testing and validation
+
+## Advanced Design Patterns & Architecture
+- Use the Builder pattern for complex object creation with proper typing
+- Implement the Repository pattern for data access with proper abstraction
+- Use the Factory pattern for object creation with proper type safety
+- Leverage dependency injection with proper type constraints
+- Use the Module pattern for encapsulation with proper exports
+- Implement proper Observer pattern with typed events
+- Use proper Strategy pattern with type-safe implementations
+- Implement proper Command pattern with typed commands
+- Use proper Decorator pattern with proper type augmentation
+- Implement proper Singleton pattern with proper type safety
+
+## Advanced Generic Programming & Type Utilities
+- Use proper generic constraints and type parameters
+- Implement proper conditional types with complex logic
+- Use proper mapped types for object transformations
+- Implement proper template literal types for string manipulation
+- Use proper utility types for common patterns
+- Implement proper type-level programming techniques
+- Use proper branded types for domain modeling
+- Implement proper phantom types for additional type safety
+- Use proper type-level computations
+- Implement proper type-level validation
+
+## Advanced Module System & Dependency Management
+- Use proper ES modules with TypeScript support
+- Implement proper CommonJS compatibility when needed
+- Use proper module resolution strategies
+- Implement proper namespace organization
+- Use proper ambient module declarations
+- Implement proper type declaration files (.d.ts)
+- Use proper module augmentation patterns
+- Implement proper module federation with TypeScript
+- Use proper dynamic imports with proper typing
+- Implement proper module testing and validation
+
+## Advanced Testing & Quality Assurance
+- Write comprehensive unit tests with proper type coverage
+- Implement proper integration testing with typed mocks
+- Use proper E2E testing with TypeScript support
+- Test proper type safety and compile-time errors
+- Implement proper test data management with proper typing
+- Use proper test utilities and helpers with proper typing
+- Implement proper test coverage analysis
+- Use proper test automation and CI/CD integration
+- Implement proper performance testing with TypeScript
+- Use proper accessibility testing with proper typing
+
+## Advanced Performance & Optimization
+- Use proper type-level optimizations for compile-time performance
+- Implement proper tree shaking with TypeScript
+- Use proper bundle optimization techniques
+- Implement proper lazy loading with proper typing
+- Use proper code splitting with TypeScript support
+- Implement proper caching strategies with proper typing
+- Use proper performance monitoring and profiling
+- Implement proper memory management with TypeScript
+- Use proper optimization techniques for large codebases
+- Implement proper performance testing and benchmarking
+
+## Advanced Development Workflow & DevOps
+- Use proper TypeScript configuration management
+- Implement proper ESLint and Prettier configuration for TypeScript
+- Use proper Git hooks and pre-commit checks for TypeScript
+- Implement proper CI/CD pipelines with TypeScript support
+- Use proper environment management and configuration
+- Implement proper monitoring and alerting for TypeScript applications
+- Use proper backup and disaster recovery strategies
+- Implement proper documentation and knowledge sharing
+- Use proper code review processes and standards
+- Implement proper team collaboration and communication tools 

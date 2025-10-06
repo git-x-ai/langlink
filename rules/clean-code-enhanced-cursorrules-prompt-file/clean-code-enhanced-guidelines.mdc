@@ -1,0 +1,139 @@
+---
+description: Comprehensive clean code guidelines and best practices for writing maintainable, readable, and professional software - Enhanced with advanced patterns and enterprise practices
+globs: **/*.{js,ts,jsx,tsx,py,java,cpp,c,cs,php,rb,go,rs,swift,kt}
+alwaysApply: true
+---
+
+# Clean Code Advanced Guidelines
+
+## Advanced Naming Conventions & Semantics
+- Use descriptive names that reveal intent and purpose
+- Variables, functions, and classes should be self-documenting
+- Avoid abbreviations unless universally understood (e.g., `id`, `url`, `api`)
+- Use consistent naming patterns across the codebase
+- Prefer specific names over generic ones (e.g., `userEmail` over `data`)
+- Use domain-specific terminology when appropriate
+- Implement proper Hungarian notation for specific contexts
+- Use proper constant naming with UPPER_CASE for global constants
+- Implement proper enum naming with descriptive values
+- Use proper interface naming with descriptive prefixes
+
+## Advanced Function Design & Single Responsibility
+- Each function should have a single, well-defined purpose
+- Functions should be small (ideally under 20 lines)
+- Use descriptive function names that explain what they do
+- Implement proper parameter ordering (inputs, outputs, side effects)
+- Use proper error handling with specific exception types
+- Implement proper function composition and chaining
+- Use proper pure functions when possible
+- Implement proper function documentation with JSDoc/docstrings
+- Use proper function testing with comprehensive coverage
+- Implement proper function performance optimization
+
+## Advanced Code Organization & Structure
+- Organize code in logical, hierarchical structures
+- Group related functionality together
+- Use proper module organization and dependency management
+- Implement proper separation of concerns
+- Use proper layered architecture patterns
+- Implement proper dependency injection patterns
+- Use proper configuration management
+- Implement proper error handling hierarchies
+- Use proper logging and monitoring integration
+- Implement proper code documentation standards
+
+## Advanced Constants & Magic Number Elimination
+- Replace all hard-coded values with named constants
+- Use descriptive constant names that explain purpose
+- Organize constants in dedicated files or modules
+- Implement proper constant validation and type safety
+- Use proper environment variable management
+- Implement proper configuration constant patterns
+- Use proper constant documentation and examples
+- Implement proper constant testing and validation
+- Use proper constant versioning and migration
+- Implement proper constant security and access control
+
+## Advanced Commenting & Documentation
+- Write self-documenting code that doesn't need comments
+- Use comments to explain "why" not "what"
+- Document complex algorithms and business logic
+- Use proper API documentation with examples
+- Implement proper inline documentation standards
+- Use proper code review comments and feedback
+- Implement proper documentation automation
+- Use proper documentation versioning and maintenance
+- Implement proper documentation testing and validation
+- Use proper documentation accessibility and usability
+
+## Advanced DRY Principles & Code Reuse
+- Extract repeated code into reusable functions
+- Implement proper abstraction layers
+- Use proper inheritance and composition patterns
+- Implement proper template and generic patterns
+- Use proper utility libraries and shared components
+- Implement proper code generation and automation
+- Use proper configuration-driven development
+- Implement proper plugin and extension patterns
+- Use proper microservice and modular architecture
+- Implement proper code sharing and distribution
+
+## Advanced Error Handling & Resilience
+- Implement comprehensive error handling strategies
+- Use proper exception hierarchies and types
+- Implement proper error logging and monitoring
+- Use proper error recovery and fallback patterns
+- Implement proper circuit breaker patterns
+- Use proper retry mechanisms with exponential backoff
+- Implement proper validation and input sanitization
+- Use proper error reporting and alerting
+- Implement proper error testing and validation
+- Use proper error documentation and examples
+
+## Advanced Testing & Quality Assurance
+- Write comprehensive unit tests with proper coverage
+- Implement proper integration testing strategies
+- Use proper test-driven development (TDD) practices
+- Implement proper behavior-driven development (BDD)
+- Use proper test automation and CI/CD integration
+- Implement proper test data management and fixtures
+- Use proper test environment management
+- Implement proper performance testing and benchmarking
+- Use proper security testing and vulnerability assessment
+- Implement proper accessibility testing and compliance
+
+## Advanced Performance & Optimization
+- Implement proper performance monitoring and profiling
+- Use proper memory management and optimization
+- Implement proper CPU optimization and parallel processing
+- Use proper I/O optimization and caching strategies
+- Implement proper database query optimization
+- Use proper network optimization and compression
+- Implement proper bundle optimization and tree shaking
+- Use proper lazy loading and code splitting
+- Implement proper CDN and static asset optimization
+- Use proper performance testing and benchmarking
+
+## Advanced Security & Best Practices
+- Implement proper input validation and sanitization
+- Use proper authentication and authorization patterns
+- Implement proper data encryption and secure communication
+- Use proper security headers and policies
+- Implement proper dependency scanning and vulnerability management
+- Use proper security testing and penetration testing
+- Implement proper compliance and regulatory requirements
+- Use proper security monitoring and alerting
+- Implement proper incident response and recovery
+- Use proper security documentation and training
+
+## Advanced Version Control & Collaboration
+- Write clear, descriptive commit messages
+- Use proper branching strategies and workflows
+- Implement proper code review processes and standards
+- Use proper merge strategies and conflict resolution
+- Implement proper release management and versioning
+- Use proper documentation and knowledge sharing
+- Implement proper team collaboration and communication
+- Use proper project management and tracking
+- Implement proper continuous integration and deployment
+- Use proper monitoring and alerting systems 

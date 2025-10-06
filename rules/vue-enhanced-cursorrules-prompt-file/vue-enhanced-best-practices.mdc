@@ -1,0 +1,138 @@
+---
+description: Vue.js best practices and patterns for modern web applications - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.vue, **/*.ts, components/**/*, src/**/*.vue, src/**/*.ts, app/**/*.vue, app/**/*.ts
+---
+
+# Vue.js Advanced Best Practices
+
+## Advanced Component Structure & Architecture
+- Use Composition API over Options API with comprehensive patterns
+- Keep components small and focused with proper single responsibility
+- Use proper TypeScript integration with comprehensive typing
+- Implement proper props validation with comprehensive error handling
+- Use proper emit declarations with comprehensive type safety
+- Keep template logic minimal with proper separation of concerns
+- Implement proper component composition with comprehensive patterns
+- Use proper component inheritance with comprehensive abstraction
+- Implement proper component lifecycle management with comprehensive hooks
+- Use proper component testing with comprehensive coverage
+
+## Advanced Composition API & Reactivity
+- Use proper ref and reactive with comprehensive state management
+- Implement proper lifecycle hooks with comprehensive management
+- Use composables for reusable logic with comprehensive organization
+- Keep setup function clean with proper organization
+- Use proper computed properties with comprehensive optimization
+- Implement proper watchers with comprehensive performance
+- Use proper provide/inject with comprehensive patterns
+- Implement proper custom hooks with comprehensive reusability
+- Use proper reactivity debugging with comprehensive tools
+- Implement proper performance optimization with comprehensive monitoring
+
+## Advanced State Management & Pinia
+- Use Pinia for state management with comprehensive configuration
+- Keep stores modular with proper separation of concerns
+- Use proper state composition with comprehensive organization
+- Implement proper actions with comprehensive error handling
+- Use proper getters with comprehensive optimization
+- Handle async state properly with comprehensive loading states
+- Implement proper state persistence with comprehensive synchronization
+- Use proper state validation with comprehensive error handling
+- Implement proper state monitoring with comprehensive analytics
+- Use proper state backup and recovery strategies
+
+## Advanced Performance & Optimization
+- Use proper component lazy loading with comprehensive optimization
+- Implement proper caching with comprehensive invalidation strategies
+- Use proper computed properties with comprehensive optimization
+- Avoid unnecessary watchers with comprehensive performance
+- Use proper v-show vs v-if with comprehensive optimization
+- Implement proper key management with comprehensive reconciliation
+- Use proper memoization with comprehensive caching strategies
+- Implement proper code splitting with comprehensive optimization
+- Use proper bundle optimization with comprehensive analysis
+- Implement proper performance monitoring and alerting
+
+## Advanced Routing & Navigation
+- Use Vue Router properly with comprehensive configuration
+- Implement proper navigation guards with comprehensive security
+- Use proper route meta fields with comprehensive organization
+- Handle route params properly with comprehensive validation
+- Implement proper lazy loading with comprehensive optimization
+- Use proper navigation methods with comprehensive accessibility
+- Implement proper route transitions with comprehensive animations
+- Use proper route caching with comprehensive optimization
+- Implement proper route monitoring with comprehensive analytics
+- Use proper route error handling with comprehensive recovery
+
+## Advanced Forms & User Experience
+- Use v-model properly with comprehensive validation
+- Implement proper validation with comprehensive error handling
+- Handle form submission properly with comprehensive loading states
+- Show proper loading states with comprehensive UX patterns
+- Use proper error handling with comprehensive user feedback
+- Implement proper form reset with comprehensive state management
+- Use proper form accessibility with comprehensive compliance
+- Implement proper form analytics with comprehensive tracking
+- Use proper form security with comprehensive protection
+- Implement proper form testing with comprehensive coverage
+
+## Advanced TypeScript Integration
+- Use proper component type definitions with comprehensive typing
+- Implement proper prop types with comprehensive validation
+- Use proper emit declarations with comprehensive type safety
+- Handle proper type inference with comprehensive optimization
+- Use proper composable types with comprehensive typing
+- Implement proper store types with comprehensive type safety
+- Use proper interface definitions with comprehensive documentation
+- Implement proper type guards with comprehensive validation
+- Use proper generic types with comprehensive flexibility
+- Implement proper type testing with comprehensive coverage
+
+## Advanced Testing & Quality Assurance
+- Write proper unit tests with comprehensive coverage
+- Implement proper component tests with comprehensive scenarios
+- Use Vue Test Utils properly with comprehensive features
+- Test composables properly with comprehensive state testing
+- Implement proper mocking with comprehensive test isolation
+- Test async operations with comprehensive error handling
+- Implement proper E2E testing with comprehensive scenarios
+- Use proper performance testing and benchmarking
+- Implement proper accessibility testing and compliance
+- Use proper test automation and CI/CD integration
+
+## Advanced Best Practices & Standards
+- Follow Vue style guide with comprehensive consistency
+- Use proper naming conventions with comprehensive standards
+- Keep components organized with proper structure
+- Implement proper error handling with comprehensive recovery
+- Use proper event handling with comprehensive patterns
+- Document complex logic with comprehensive examples
+- Implement proper code review and quality gates
+- Use proper version control and change management
+- Implement proper team collaboration and communication
+- Use proper project management and tracking
+
+## Advanced Build & Tooling
+- Use Vite for development with comprehensive configuration
+- Configure proper build setup with comprehensive optimization
+- Use proper environment variables with comprehensive management
+- Implement proper code splitting with comprehensive optimization
+- Use proper asset handling with comprehensive optimization
+- Configure proper optimization with comprehensive performance
+- Implement proper bundling with comprehensive analysis
+- Use proper source maps with comprehensive debugging
+- Implement proper caching with comprehensive invalidation
+- Use proper monitoring and alerting
+
+## Advanced Integration & Ecosystem
+- Use proper framework integration with comprehensive features
+- Implement proper UI library integration with comprehensive components
+- Use proper state management integration with comprehensive patterns
+- Implement proper testing integration with comprehensive coverage
+- Use proper build tool integration with comprehensive optimization
+- Implement proper deployment integration with comprehensive automation
+- Use proper monitoring integration with comprehensive analytics
+- Implement proper analytics integration with comprehensive tracking
+- Use proper payment integration with comprehensive security
+- Implement proper email integration with comprehensive features 

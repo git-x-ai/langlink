@@ -1,0 +1,163 @@
+---
+description: C++ programming guidelines and best practices for modern software development - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.c,**/*.cpp,**/*.h,**/*.hpp,**/*.cxx,CMakeLists.txt,*.cmake,conanfile.txt,Makefile,**/*.cc
+---
+
+# C++ Advanced Programming Guidelines
+
+## Advanced Basic Principles & Standards
+- Use English for all code and documentation with comprehensive clarity
+- Always declare the type of each variable and function with comprehensive type safety
+- Create necessary types and classes with comprehensive abstraction
+- Use Doxygen style comments to document public classes and methods with comprehensive coverage
+- Don't leave blank lines within a function with comprehensive consistency
+- Follow the one-definition rule (ODR) with comprehensive compliance
+- Implement proper error handling with comprehensive recovery strategies
+- Use proper logging and monitoring with comprehensive analytics
+- Implement proper testing strategies with comprehensive coverage
+- Use proper performance optimization with comprehensive monitoring
+
+## Advanced Nomenclature & Naming Conventions
+- Use PascalCase for classes and structures with comprehensive consistency
+- Use camelCase for variables, functions, and methods with comprehensive clarity
+- Use ALL_CAPS for constants and macros with comprehensive visibility
+- Use snake_case for file and directory names with comprehensive organization
+- Use UPPERCASE for environment variables with comprehensive configuration
+- Avoid magic numbers and define constants with comprehensive maintainability
+- Start each function with a verb with comprehensive clarity
+- Use verbs for boolean variables (isLoading, hasError, canDelete) with comprehensive readability
+- Use complete words instead of abbreviations with comprehensive clarity
+- Implement proper namespace organization with comprehensive structure
+
+## Advanced Function Design & Architecture
+- Write short functions with a single purpose (less than 20 instructions) with comprehensive focus
+- Name functions with a verb and descriptive purpose with comprehensive clarity
+- Use isX, hasX, canX for boolean returns with comprehensive consistency
+- Use executeX, saveX for void functions with comprehensive action clarity
+- Avoid nesting blocks with early checks and returns with comprehensive optimization
+- Extract to utility functions with comprehensive modularity
+- Use standard library algorithms (std::for_each, std::transform, std::find) with comprehensive optimization
+- Use lambda functions for simple operations with comprehensive performance
+- Use named functions for complex operations with comprehensive maintainability
+- Use default parameter values instead of null checks with comprehensive safety
+
+## Advanced Data Management & Type Safety
+- Don't abuse primitive types and encapsulate data in composite types with comprehensive abstraction
+- Avoid data validations in functions and use classes with internal validation with comprehensive encapsulation
+- Prefer immutability for data with comprehensive thread safety
+- Use const for data that doesn't change with comprehensive optimization
+- Use constexpr for compile-time constants with comprehensive performance
+- Use std::optional for possibly null values with comprehensive safety
+- Implement proper data validation with comprehensive error handling
+- Use proper data transformation with comprehensive optimization
+- Implement proper data persistence with comprehensive security
+- Use proper data monitoring with comprehensive analytics
+
+## Advanced Class Design & SOLID Principles
+- Follow SOLID principles with comprehensive architecture
+- Prefer composition over inheritance with comprehensive flexibility
+- Declare interfaces as abstract classes or concepts with comprehensive abstraction
+- Write small classes with single purpose (less than 200 instructions) with comprehensive focus
+- Limit public methods to less than 10 with comprehensive encapsulation
+- Limit properties to less than 10 with comprehensive simplicity
+- Use the Rule of Five (or Rule of Zero) for resource management with comprehensive safety
+- Make member variables private and provide getters/setters where necessary with comprehensive encapsulation
+- Use const-correctness for member functions with comprehensive optimization
+- Implement proper class testing with comprehensive coverage
+
+## Advanced Exception Handling & Error Management
+- Use exceptions to handle unexpected errors with comprehensive error propagation
+- Catch exceptions to fix expected problems or add context with comprehensive error handling
+- Use global handlers for unhandled exceptions with comprehensive error management
+- Use std::optional, std::expected, or error codes for expected failures with comprehensive error handling
+- Implement proper error logging with comprehensive tracking
+- Use proper error recovery with comprehensive resilience
+- Implement proper error reporting with comprehensive user feedback
+- Use proper error monitoring with comprehensive alerting
+- Implement proper error testing with comprehensive coverage
+- Use proper error documentation with comprehensive examples
+
+## Advanced Memory Management & Resource Handling
+- Prefer smart pointers (std::unique_ptr, std::shared_ptr) over raw pointers with comprehensive safety
+- Use RAII (Resource Acquisition Is Initialization) principles with comprehensive resource management
+- Avoid memory leaks by proper resource management with comprehensive monitoring
+- Use std::vector and other standard containers instead of C-style arrays with comprehensive safety
+- Implement proper memory optimization with comprehensive performance
+- Use proper memory monitoring with comprehensive analytics
+- Implement proper memory debugging with comprehensive tools
+- Use proper memory profiling with comprehensive analysis
+- Implement proper memory testing with comprehensive validation
+- Use proper memory documentation with comprehensive examples
+
+## Advanced Testing & Quality Assurance
+- Follow the Arrange-Act-Assert convention for tests with comprehensive structure
+- Name test variables clearly (inputX, mockX, actualX, expectedX) with comprehensive clarity
+- Write unit tests for each public function with comprehensive coverage
+- Use test doubles to simulate dependencies with comprehensive isolation
+- Write integration tests for each module with comprehensive scenarios
+- Follow the Given-When-Then convention with comprehensive behavior-driven development
+- Implement proper test automation with comprehensive CI/CD integration
+- Use proper test data management with comprehensive fixtures
+- Implement proper test environment management with comprehensive configuration
+- Use proper test performance monitoring with comprehensive benchmarking
+
+## Advanced Project Structure & Architecture
+- Use modular architecture with comprehensive organization
+- Organize code into logical directories (include/, src/, test/, lib/, doc/) with comprehensive structure
+- Use CMake or similar build system with comprehensive cross-platform support
+- Separate interface (.h) from implementation (.cpp) with comprehensive modularity
+- Use namespaces to organize code logically with comprehensive organization
+- Create a core namespace for foundational components with comprehensive structure
+- Create a utils namespace for utility functions with comprehensive organization
+- Implement proper dependency management with comprehensive package handling
+- Use proper version control with comprehensive change management
+- Implement proper documentation with comprehensive knowledge sharing
+
+## Advanced Standard Library & Modern C++ Features
+- Use the C++ Standard Library whenever possible with comprehensive optimization
+- Prefer std::string over C-style strings with comprehensive safety
+- Use std::vector, std::map, std::unordered_map for collections with comprehensive performance
+- Use std::optional, std::variant, std::any for modern type safety with comprehensive flexibility
+- Use std::filesystem for file operations with comprehensive cross-platform support
+- Use std::chrono for time-related operations with comprehensive precision
+- Implement proper template metaprogramming with comprehensive flexibility
+- Use proper concepts with comprehensive type constraints
+- Implement proper modules with comprehensive organization
+- Use proper coroutines with comprehensive async patterns
+
+## Advanced Concurrency & Thread Safety
+- Use std::thread, std::mutex, std::lock_guard for thread safety with comprehensive synchronization
+- Prefer task-based parallelism over thread-based parallelism with comprehensive performance
+- Use std::atomic for atomic operations with comprehensive thread safety
+- Avoid data races by proper synchronization with comprehensive safety
+- Use thread-safe data structures when necessary with comprehensive concurrency
+- Implement proper parallel algorithms with comprehensive optimization
+- Use proper thread pools with comprehensive resource management
+- Implement proper async programming with comprehensive performance
+- Use proper lock-free programming with comprehensive optimization
+- Implement proper concurrent testing with comprehensive validation
+
+## Advanced Performance & Optimization
+- Implement proper profiling tools with comprehensive performance analysis
+- Use proper compiler optimizations with comprehensive settings
+- Implement proper cache-friendly code with comprehensive memory access
+- Use proper branch prediction with comprehensive optimization
+- Implement proper vectorization with comprehensive SIMD usage
+- Use proper parallel programming with comprehensive threading
+- Implement proper lock-free programming with comprehensive synchronization
+- Use proper memory alignment with comprehensive performance
+- Implement proper performance testing with comprehensive benchmarking
+- Use proper performance monitoring with comprehensive alerting
+
+## Advanced Security & Best Practices
+- Implement proper input validation with comprehensive sanitization
+- Use proper buffer overflow prevention with comprehensive safety
+- Implement proper integer overflow protection with comprehensive validation
+- Use proper secure coding practices with comprehensive security
+- Implement proper authentication and authorization with comprehensive access control
+- Use proper encryption with comprehensive data protection
+- Implement proper secure communication with comprehensive network security
+- Use proper vulnerability scanning with comprehensive security assessment
+- Implement proper security monitoring with comprehensive threat detection
+- Use proper compliance with comprehensive regulatory requirements
+
