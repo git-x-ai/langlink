@@ -50,9 +50,9 @@ Choose the installer for your system architecture:
 
 | Architecture | Download | Description |
 |-------------|----------|-------------|
-| **x64 (64-bit)** | [LangLink-Setup-Windows-x64.exe](LangLink-Setup-Windows-x64.exe) | For modern 64-bit Windows systems |
-| **x32 (32-bit)** | [LangLink-Setup-Windows-x32.exe](LangLink-Setup-Windows-x32.exe) | For older 32-bit Windows systems |
-| **ARM64** | [LangLink-Setup-Windows-ARM64.exe](LangLink-Setup-Windows-ARM64.exe) | For Windows on ARM devices |
+| **x64 (64-bit)** | [LangLink-Setup-Windows-x64.exe](https://github.com/git-x-ai/langlink/releases/download/v1.0.0/LangLink-Setup-Windows-x64.exe) | For modern 64-bit Windows systems |
+| **x32 (32-bit)** | [LangLink-Setup-Windows-x32.exe](https://github.com/git-x-ai/langlink/releases/download/v1.0.0/LangLink-Setup-Windows-x32.exe) | For older 32-bit Windows systems |
+| **ARM64** | [LangLink-Setup-Windows-ARM64.exe](https://github.com/git-x-ai/langlink/releases/download/v1.0.0/LangLink-Setup-Windows-ARM64.exe) | For Windows on ARM devices |
 
 ### System Requirements
 
