@@ -51,7 +51,7 @@ Choose the installer for your system architecture:
 | Architecture | Download | Description |
 |-------------|----------|-------------|
 | **x64 (64-bit)** | [LangLink-Setup-Windows-x64.exe](LangLink-Setup-Windows-x64.exe) | For modern 64-bit Windows systems |
-| **x86 (32-bit)** | [LangLink-Setup-Windows-x86.exe](LangLink-Setup-Windows-x86.exe) | For older 32-bit Windows systems |
+| **x32 (32-bit)** | [LangLink-Setup-Windows-x32.exe](LangLink-Setup-Windows-x32.exe) | For older 32-bit Windows systems |
 | **ARM64** | [LangLink-Setup-Windows-ARM64.exe](LangLink-Setup-Windows-ARM64.exe) | For Windows on ARM devices |
 
 ### System Requirements
