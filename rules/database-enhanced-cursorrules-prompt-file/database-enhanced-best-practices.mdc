@@ -1,0 +1,138 @@
+---
+description: Comprehensive database best practices and patterns for modern web development - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: prisma/**/*, src/db/**/*, **/*.prisma, supabase/**/*, migrations/**/*, schema/**/*, models/**/*
+---
+
+# Database Advanced Best Practices
+
+## Advanced Prisma Setup & Configuration
+- Use proper schema design with comprehensive data modeling
+- Implement proper migrations with version control and rollback strategies
+- Use proper relation definitions with proper constraints and cascades
+- Configure proper connection pooling with monitoring and optimization
+- Implement proper seeding with comprehensive test data
+- Use proper client setup with proper error handling and logging
+- Implement proper environment management and configuration
+- Use proper database connection management with proper retry logic
+- Implement proper transaction management with proper isolation levels
+- Use proper database monitoring and alerting
+
+## Advanced Prisma Models & Schema Design
+- Use proper model naming with consistent conventions
+- Implement proper relations with comprehensive constraints
+- Use proper field types with proper validation and constraints
+- Define proper indexes with performance optimization
+- Implement proper constraints with proper validation rules
+- Use proper enums with proper documentation and examples
+- Implement proper computed fields with proper caching
+- Use proper virtual fields with proper serialization
+- Implement proper model inheritance and composition
+- Use proper model versioning and migration strategies
+
+## Advanced Prisma Queries & Performance
+- Use proper query optimization with performance monitoring
+- Implement proper filtering with proper indexing strategies
+- Use proper relations loading with proper eager/lazy loading
+- Handle transactions properly with proper isolation and rollback
+- Implement proper pagination with proper cursor-based pagination
+- Use proper aggregations with proper performance optimization
+- Implement proper batch operations with proper error handling
+- Use proper query caching with proper invalidation strategies
+- Implement proper query monitoring and profiling
+- Use proper query optimization and performance tuning
+
+## Advanced Supabase Setup & Configuration
+- Configure proper project setup with proper environment management
+- Implement proper authentication with comprehensive security
+- Use proper database setup with proper schema management
+- Configure proper storage with proper access control
+- Implement proper policies with comprehensive security rules
+- Use proper client setup with proper error handling
+- Implement proper real-time subscriptions with proper error handling
+- Use proper edge functions with proper deployment and monitoring
+- Implement proper API management with proper rate limiting
+- Use proper monitoring and alerting with comprehensive metrics
+
+## Advanced Supabase Security & Access Control
+- Implement comprehensive RLS policies with proper security rules
+- Use proper authentication with proper session management
+- Configure proper permissions with proper role-based access control
+- Handle sensitive data properly with proper encryption
+- Implement proper backups with proper disaster recovery
+- Use proper encryption with proper key management
+- Implement proper audit logging with proper compliance
+- Use proper security monitoring and alerting
+- Implement proper vulnerability scanning and assessment
+- Use proper compliance and regulatory requirements
+
+## Advanced Supabase Queries & Real-time Features
+- Use proper query optimization with performance monitoring
+- Implement proper filtering with proper indexing strategies
+- Use proper joins with proper performance optimization
+- Handle real-time properly with proper error handling and reconnection
+- Implement proper pagination with proper cursor-based pagination
+- Use proper functions with proper error handling and validation
+- Implement proper subscriptions with proper error handling
+- Use proper batch operations with proper error handling
+- Implement proper query caching with proper invalidation
+- Use proper performance monitoring and optimization
+
+## Advanced Database Design & Architecture
+- Use proper normalization with proper denormalization strategies
+- Implement proper indexing with comprehensive performance optimization
+- Use proper constraints with proper validation and integrity
+- Define proper relations with proper cascading and referential integrity
+- Implement proper cascades with proper error handling
+- Use proper data types with proper validation and constraints
+- Implement proper partitioning with proper performance optimization
+- Use proper sharding with proper data distribution strategies
+- Implement proper replication with proper consistency and availability
+- Use proper backup and recovery strategies with proper testing
+
+## Advanced Performance & Optimization
+- Use proper connection pooling with comprehensive monitoring
+- Implement proper caching with proper invalidation strategies
+- Use proper query optimization with comprehensive profiling
+- Handle N+1 queries properly with proper eager loading strategies
+- Implement proper batching with proper error handling
+- Monitor performance metrics with comprehensive alerting
+- Implement proper database tuning with proper optimization
+- Use proper query plan analysis with proper optimization
+- Implement proper index optimization with proper monitoring
+- Use proper performance testing and benchmarking
+
+## Advanced Security & Compliance
+- Use proper authentication with comprehensive security measures
+- Implement proper authorization with proper access control
+- Handle sensitive data properly with proper encryption and masking
+- Use proper encryption with proper key management and rotation
+- Implement proper backups with proper disaster recovery testing
+- Monitor security issues with comprehensive alerting and response
+- Implement proper audit logging with proper compliance requirements
+- Use proper vulnerability scanning with proper remediation
+- Implement proper compliance frameworks (GDPR, SOC2, HIPAA)
+- Use proper security testing and penetration testing
+
+## Advanced Monitoring & Maintenance
+- Follow database conventions with proper documentation
+- Use proper migrations with proper version control and rollback
+- Implement proper versioning with proper change management
+- Handle errors properly with comprehensive error handling
+- Document schema properly with comprehensive documentation
+- Monitor database health with comprehensive monitoring and alerting
+- Implement proper capacity planning with proper scaling strategies
+- Use proper performance monitoring with comprehensive metrics
+- Implement proper backup testing with proper disaster recovery
+- Use proper maintenance windows with proper scheduling and automation
+
+## Advanced Integration & Ecosystem
+- Use proper ORM integration with comprehensive features
+- Implement proper API integration with proper error handling
+- Use proper caching integration with proper invalidation
+- Implement proper monitoring integration with comprehensive metrics
+- Use proper backup integration with proper disaster recovery
+- Implement proper security integration with comprehensive protection
+- Use proper performance integration with comprehensive optimization
+- Implement proper compliance integration with proper requirements
+- Use proper testing integration with comprehensive coverage
+- Implement proper deployment integration with proper automation 

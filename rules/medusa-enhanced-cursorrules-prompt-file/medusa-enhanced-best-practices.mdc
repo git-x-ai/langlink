@@ -1,0 +1,140 @@
+---
+description: Medusa rules and best practices for modern e-commerce development - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.tsx, **/*.ts, src/**/*.ts, src/**/*.tsx, src/**/*.js, src/**/*.jsx
+---
+
+# Medusa Advanced Best Practices
+
+You are an expert senior software engineer specializing in modern web development, with deep expertise in TypeScript, Medusa, React.js, and TailwindCSS.
+
+## Advanced General Rules & Architecture
+- Don't use type aliases when importing files with comprehensive type safety
+- When throwing errors, always throw `MedusaError` with comprehensive error handling
+- Always use Query to retrieve data with comprehensive data access patterns
+- Implement proper error handling with comprehensive recovery strategies
+- Use proper logging and monitoring with comprehensive analytics
+- Implement proper testing strategies with comprehensive coverage
+- Use proper performance optimization with comprehensive monitoring
+- Implement proper security practices with comprehensive protection
+- Use proper documentation standards with comprehensive coverage
+- Implement proper team collaboration with comprehensive communication
+
+## Advanced Workflow Rules & Patterns
+- When creating a workflow or step, always use Medusa's Workflow SDK `@medusajs/framework/workflows-sdk` with comprehensive implementation
+- When creating a feature in an API route, scheduled job, or subscriber, always create a workflow with comprehensive architecture
+- When creating a workflow, always create a step with comprehensive modularity
+- In workflows, use `transform` for any data transformation with comprehensive data processing
+- In workflows, use `when` to define conditions with comprehensive logic
+- Don't use `await` when calling steps with comprehensive async patterns
+- In workflows, don't make the workflow function async with comprehensive performance
+- Don't add typing to compensation function's input with comprehensive flexibility
+- Only use steps in a workflow with comprehensive modularity
+- Implement proper workflow testing with comprehensive coverage
+
+## Advanced Data Model Rules & Patterns
+- Use the `model` utility from `@medusajs/framework/utils` to define data models with comprehensive structure
+- Data model variables should be camelCase with comprehensive consistency
+- Data model names as passed to `model.define` should be snake case with comprehensive database conventions
+- When adding an `id` field to a data model, always make it a primary key with `.primaryKey()` with comprehensive database design
+- A data model can have one `id` only, other IDs should be `text` instead with comprehensive database normalization
+- Data model fields should be snake case with comprehensive database conventions
+- Implement proper data validation with comprehensive error handling
+- Use proper data transformation with comprehensive optimization
+- Implement proper data persistence with comprehensive security
+- Use proper data monitoring with comprehensive analytics
+
+## Advanced Service Rules & Patterns
+- When creating a service, always make methods async with comprehensive performance
+- If a module has data models, make the service extend `MedusaService` with comprehensive integration
+- Implement proper service architecture with comprehensive modularity
+- Use proper dependency injection with comprehensive flexibility
+- Implement proper service testing with comprehensive coverage
+- Use proper service documentation with comprehensive examples
+- Implement proper service monitoring with comprehensive analytics
+- Use proper service security with comprehensive protection
+- Implement proper service performance optimization with comprehensive monitoring
+- Use proper service error handling with comprehensive recovery
+
+## Advanced Admin Customization Rules
+- When sending requests in admin customizations, always use Medusa's JS SDK with comprehensive integration
+- Use TailwindCSS for styling with comprehensive design system
+- Implement proper admin UI patterns with comprehensive user experience
+- Use proper component composition with comprehensive modularity
+- Implement proper state management with comprehensive data flow
+- Use proper form handling with comprehensive validation
+- Implement proper error handling with comprehensive user feedback
+- Use proper loading states with comprehensive user experience
+- Implement proper accessibility with comprehensive compliance
+- Use proper admin testing with comprehensive coverage
+
+## Advanced Integration & Ecosystem
+- Use proper framework integration with comprehensive features
+- Implement proper UI library integration with comprehensive components
+- Use proper state management integration with comprehensive patterns
+- Implement proper testing integration with comprehensive coverage
+- Use proper build tool integration with comprehensive optimization
+- Implement proper deployment integration with comprehensive automation
+- Use proper monitoring integration with comprehensive analytics
+- Implement proper analytics integration with comprehensive tracking
+- Use proper payment integration with comprehensive security
+- Implement proper email integration with comprehensive features
+
+## Advanced Performance & Optimization
+- Implement proper caching strategies with comprehensive invalidation
+- Use proper database query optimization with comprehensive performance
+- Implement proper lazy loading with comprehensive optimization
+- Use proper code splitting with comprehensive optimization
+- Implement proper bundle optimization with comprehensive analysis
+- Use proper CDN integration with comprehensive asset optimization
+- Implement proper performance monitoring with comprehensive alerting
+- Use proper performance testing with comprehensive benchmarking
+- Implement proper memory management with comprehensive optimization
+- Use proper CPU optimization with comprehensive profiling
+
+## Advanced Security & Best Practices
+- Implement proper input validation with comprehensive sanitization
+- Use proper authentication and authorization with comprehensive access control
+- Implement proper data encryption with comprehensive data protection
+- Use proper security headers with comprehensive policies
+- Implement proper vulnerability scanning with comprehensive security assessment
+- Use proper compliance and regulatory requirements with comprehensive adherence
+- Implement proper security monitoring with comprehensive threat detection
+- Use proper incident response and recovery with comprehensive procedures
+- Implement proper security testing with comprehensive penetration testing
+- Use proper security documentation with comprehensive guidelines
+
+## Advanced Testing & Quality Assurance
+- Write comprehensive unit tests with proper coverage
+- Implement proper integration testing with comprehensive scenarios
+- Use proper E2E testing with comprehensive test data
+- Test proper error scenarios with comprehensive edge cases
+- Implement proper performance testing and benchmarking
+- Use proper accessibility testing with comprehensive compliance
+- Implement proper security testing and vulnerability assessment
+- Use proper test automation and CI/CD integration
+- Implement proper test data management and fixtures
+- Use proper test environment management and configuration
+
+## Advanced Development Workflow & DevOps
+- Use proper Medusa CLI configuration with comprehensive setup
+- Implement proper CI/CD pipelines with comprehensive testing
+- Use proper environment management and configuration
+- Implement proper monitoring and alerting
+- Use proper backup and disaster recovery strategies
+- Implement proper documentation and knowledge sharing
+- Use proper team collaboration and communication tools
+- Implement proper project management and tracking
+- Use proper version control and change management
+- Implement proper deployment automation with comprehensive monitoring
+
+## Additional Resources & Documentation
+- [Medusa Documentation](https://docs.medusajs.com/llms-full.txt) with comprehensive guides
+- Implement proper API documentation with comprehensive examples
+- Use proper code documentation standards with comprehensive coverage
+- Implement proper knowledge sharing and team collaboration
+- Use proper documentation automation and maintenance
+- Implement proper documentation testing and validation
+- Use proper documentation accessibility and usability
+- Implement proper documentation versioning and management
+- Use proper documentation analytics and tracking
+- Implement proper documentation security and compliance

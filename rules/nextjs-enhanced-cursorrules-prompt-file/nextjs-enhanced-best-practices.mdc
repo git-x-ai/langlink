@@ -1,0 +1,126 @@
+---
+description: Next.js with TypeScript and Tailwind UI best practices - Enhanced with advanced patterns, performance optimization, and modern development practices
+globs: **/*.tsx, **/*.ts, src/**/*.ts, src/**/*.tsx, app/**/*.tsx, app/**/*.ts
+---
+
+# Next.js Advanced Best Practices
+
+## Project Structure & Architecture
+- Use the App Router directory structure with proper organization
+- Place components in `app` directory for route-specific components
+- Place shared components in `components` directory with proper categorization
+- Place utilities and helpers in `lib` directory with clear separation of concerns
+- Use lowercase with dashes for directories (e.g., `components/auth-wizard`)
+- Implement proper barrel exports for clean imports
+- Use proper TypeScript path mapping in tsconfig.json
+- Organize by feature rather than by file type for better maintainability
+
+## Advanced Component Patterns
+- Use Server Components by default for optimal performance
+- Mark client components explicitly with 'use client' directive
+- Wrap client components in Suspense with meaningful fallback components
+- Use dynamic loading for non-critical components with proper loading states
+- Implement proper error boundaries with fallback UI and error reporting
+- Place static content and interfaces at file end for better readability
+- Use compound component patterns for complex UI elements
+- Implement proper prop drilling prevention with context patterns
+- Use render props and higher-order components when appropriate
+
+## Performance Optimization & Core Web Vitals
+- Optimize images: Use WebP format, proper sizing, lazy loading, and priority loading
+- Minimize use of 'useEffect' and 'setState' - prefer Server Components
+- Favor Server Components (RSC) where possible for better performance
+- Use dynamic loading for non-critical components with proper code splitting
+- Implement proper caching strategies (ISR, SSG, SWR, React Query)
+- Optimize bundle size with proper tree shaking and dynamic imports
+- Use proper memoization (useMemo, useCallback) sparingly and correctly
+- Implement proper Core Web Vitals optimization (LCP, FID, CLS)
+- Use proper preloading strategies for critical resources
+- Implement proper service worker patterns for offline functionality
+
+## Advanced Data Fetching & State Management
+- Use Server Components for data fetching when possible
+- Implement proper error handling for data fetching with retry logic
+- Use appropriate caching strategies (SWR, React Query, Zustand)
+- Handle loading and error states appropriately with proper UX
+- Implement proper optimistic updates for better user experience
+- Use proper data validation with Zod or similar libraries
+- Implement proper data transformation and normalization
+- Use proper pagination and infinite scrolling patterns
+- Implement proper real-time data synchronization when needed
+
+## Routing & Navigation Excellence
+- Use the App Router conventions with proper file naming
+- Implement proper loading and error states for routes
+- Use dynamic routes appropriately with proper validation
+- Handle parallel routes when needed for complex layouts
+- Implement proper route protection and authentication
+- Use proper route transitions and animations
+- Implement proper breadcrumb navigation
+- Use proper deep linking and URL state management
+- Implement proper route-based code splitting
+
+## Forms, Validation & User Experience
+- Use Zod for comprehensive form validation with proper error messages
+- Implement proper server-side validation with CSRF protection
+- Handle form errors appropriately with user-friendly messages
+- Show loading states during form submission with proper UX
+- Implement proper form accessibility (ARIA labels, keyboard navigation)
+- Use proper form libraries (React Hook Form, Formik) for complex forms
+- Implement proper file upload handling with progress indicators
+- Use proper form state management and persistence
+- Implement proper form analytics and tracking
+
+## Advanced State Management Patterns
+- Minimize client-side state - prefer server state when possible
+- Use React Context sparingly and with proper optimization
+- Implement proper state management libraries (Zustand, Redux Toolkit)
+- Use proper state persistence and hydration patterns
+- Implement proper state synchronization across components
+- Use proper state debugging and development tools
+- Implement proper state testing strategies
+- Use proper state migration and versioning patterns
+
+## Security & Best Practices
+- Implement proper CSRF protection for forms
+- Use proper input sanitization and validation
+- Implement proper authentication and authorization patterns
+- Use proper HTTPS and security headers
+- Implement proper rate limiting and abuse prevention
+- Use proper environment variable management
+- Implement proper logging and monitoring
+- Use proper dependency management and security scanning
+- Implement proper content security policy (CSP)
+
+## Testing & Quality Assurance
+- Write comprehensive unit tests for components and utilities
+- Implement proper integration tests for complex flows
+- Use proper E2E testing with Playwright or Cypress
+- Test proper accessibility compliance (WCAG 2.1)
+- Implement proper performance testing and monitoring
+- Use proper visual regression testing
+- Implement proper API testing and mocking
+- Use proper test data management and fixtures
+- Implement proper CI/CD testing pipelines
+
+## SEO & Performance Monitoring
+- Implement proper meta tags and structured data
+- Use proper Open Graph and Twitter Card optimization
+- Implement proper sitemap and robots.txt
+- Use proper analytics and performance monitoring
+- Implement proper A/B testing and feature flags
+- Use proper error tracking and monitoring (Sentry, LogRocket)
+- Implement proper user feedback and analytics
+- Use proper conversion tracking and optimization
+- Implement proper accessibility monitoring
+
+## Development Workflow & DevOps
+- Use proper TypeScript configuration and strict mode
+- Implement proper ESLint and Prettier configuration
+- Use proper Git hooks and pre-commit checks
+- Implement proper CI/CD pipelines with proper testing
+- Use proper environment management and deployment
+- Implement proper monitoring and alerting
+- Use proper backup and disaster recovery strategies
+- Implement proper documentation and knowledge sharing
+- Use proper code review processes and standards 

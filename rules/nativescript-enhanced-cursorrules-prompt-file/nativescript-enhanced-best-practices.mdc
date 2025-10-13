@@ -1,0 +1,126 @@
+---
+description: NativeScript best practices and patterns for mobile applications - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.tsx, **/*.ts, **/*.vue, **/*.svelte, src/**/*.ts, app/**/*.ts, src/**/*.tsx, app/**/*.tsx, src/**/*.vue, app/**/*.vue, src/**/*.svelte, **/*.xml
+---
+
+# NativeScript Advanced Best Practices
+
+## Advanced Code Style & Architecture
+- Organize code using modular components and services with proper separation of concerns
+- Use platform-specific files (`.ios.ts`, `.android.ts`) when code exceeds 20 platform-specific lines
+- When creating custom native code, use comprehensive folder structure: `custom-native/index.ios.ts`, `custom-native/index.android.ts`, `custom-native/common.ts`, `custom-native/index.d.ts`
+- Implement proper dependency injection patterns with comprehensive service management
+- Use proper clean architecture principles with proper layered design
+- Implement proper domain-driven design patterns for complex applications
+- Use proper microservice architecture when appropriate
+- Implement proper error handling and logging strategies
+- Use proper configuration management with environment variables
+- Implement proper testing strategies with comprehensive coverage
+
+## Advanced Naming Conventions & Standards
+- Prefix platform-specific variables with `ios` or `android` (e.g., `iosButtonStyle`, `androidButtonStyle`)
+- Name custom components and styles descriptively (`primaryButtonStyle`, `userProfileView`)
+- Use proper TypeScript naming conventions with comprehensive typing
+- Implement proper interface naming with descriptive prefixes
+- Use proper enum naming with descriptive values
+- Implement proper constant naming with UPPER_CASE for global constants
+- Use proper function naming with descriptive action verbs
+- Implement proper class naming with PascalCase conventions
+- Use proper file naming with consistent patterns
+- Implement proper module naming with proper organization
+
+## Advanced Native Integration & Platform Code
+- Use `@NativeClass()` when extending native classes with proper implementation
+- For iOS, when extending native classes, always use `static ObjCProtocols = [AnyUIKitDelegate]` for custom delegates
+- For iOS, always retain custom delegate instances to prevent garbage collection with proper memory management
+- Favor `__ANDROID__` and `__APPLE__` for conditional platform code with proper tree-shaking
+- Track and clean up all timers (`setTimeout`, `setInterval`) to avoid memory leaks
+- Implement proper native module integration with comprehensive error handling
+- Use proper platform-specific optimizations with performance monitoring
+- Implement proper native plugin development with comprehensive documentation
+- Use proper platform-specific testing with comprehensive coverage
+- Implement proper native code debugging with comprehensive tools
+
+## Advanced UI & Styling with TailwindCSS
+- Always use TailwindCSS as the CSS Framework using `"@nativescript/tailwind": "^2.1.0"` with `"tailwindcss": "~3.4.0"`
+- Add ios: and android: style variants for platform-specific styling with proper configuration
+- Implement proper dark mode support with `darkMode: ['class', '.ns-dark']`
+- Leverage `GridLayout` or `StackLayout` for flexible, responsive layouts with proper optimization
+- Use `visibility: 'hidden'` for elements that should not affect layout when hidden
+- Implement proper responsive design patterns with comprehensive breakpoints
+- Use proper animation and transition patterns with performance optimization
+- Implement proper accessibility patterns with comprehensive support
+- Use proper theming and customization with comprehensive configuration
+- Implement proper component styling with proper organization
+
+## Advanced Performance Optimization
+- Try to avoid deeply nesting layout containers but use `GridLayout` wisely for complex layouts
+- Avoid direct manipulation of the visual tree during runtime to minimize rendering overhead
+- Optimize images using compression tools like TinyPNG to reduce memory and app size
+- Clean the project (`ns clean`) after modifying files in `App_Resources` or `package.json`
+- Implement proper memory management with comprehensive monitoring
+- Use proper lazy loading strategies with comprehensive optimization
+- Implement proper caching strategies with proper invalidation
+- Use proper bundle optimization with comprehensive analysis
+- Implement proper performance monitoring with comprehensive metrics
+- Use proper profiling tools with comprehensive analysis
+
+## Advanced Key Conventions & Patterns
+- Reuse components and styles to avoid duplication with proper organization
+- Use template selectors (`itemTemplateSelector`) for conditional layouts in `ListView` and `RadListView`
+- Minimize heavy computations in UI bindings or methods with proper optimization
+- Only if using plain xml bindings, use `Observable` or `ObservableArray` properties for state changes
+- When using Angular, React, Solid, Svelte or Vue, leverage their respective state management and lifecycle hooks
+- Implement proper error handling with comprehensive error boundaries
+- Use proper logging and monitoring with comprehensive analytics
+- Implement proper testing strategies with comprehensive coverage
+- Use proper documentation and knowledge sharing
+- Implement proper team collaboration and communication
+
+## Advanced State Management & Data Flow
+- Implement proper state management patterns with comprehensive architecture
+- Use proper data flow patterns with comprehensive validation
+- Implement proper caching strategies with proper invalidation
+- Use proper offline support with comprehensive synchronization
+- Implement proper real-time updates with comprehensive error handling
+- Use proper data persistence with comprehensive security
+- Implement proper data validation with comprehensive error handling
+- Use proper data transformation with comprehensive optimization
+- Implement proper data monitoring with comprehensive analytics
+- Use proper data backup and recovery strategies
+
+## Advanced Security & Best Practices
+- Implement proper authentication and authorization with comprehensive security
+- Use proper data encryption with comprehensive key management
+- Implement proper secure storage with comprehensive protection
+- Use proper network security with comprehensive validation
+- Implement proper input validation with comprehensive sanitization
+- Use proper security headers with comprehensive policies
+- Implement proper vulnerability scanning with comprehensive assessment
+- Use proper compliance and regulatory requirements
+- Implement proper security monitoring and alerting
+- Use proper incident response and recovery procedures
+
+## Advanced Testing & Quality Assurance
+- Write comprehensive unit tests with proper coverage
+- Implement proper integration testing with comprehensive scenarios
+- Use proper E2E testing with comprehensive test data
+- Test proper error scenarios with comprehensive edge cases
+- Implement proper performance testing and benchmarking
+- Use proper accessibility testing with comprehensive compliance
+- Implement proper security testing and vulnerability assessment
+- Use proper test automation and CI/CD integration
+- Implement proper test data management and fixtures
+- Use proper test environment management and configuration
+
+## Advanced Development Workflow & DevOps
+- Use proper NativeScript CLI configuration with comprehensive setup
+- Implement proper CI/CD pipelines with comprehensive testing
+- Use proper environment management and configuration
+- Implement proper monitoring and alerting
+- Use proper backup and disaster recovery strategies
+- Implement proper documentation and knowledge sharing
+- Use proper team collaboration and communication tools
+- Implement proper project management and tracking
+- Use proper version control and change management
+- Implement proper deployment automation with comprehensive monitoring

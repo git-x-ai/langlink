@@ -1,0 +1,138 @@
+---
+description: Svelte best practices and patterns for modern web applications - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.svelte, src/**/*.ts, src/**/*.js, src/**/*.svelte, app/**/*.svelte, components/**/*.svelte
+---
+
+# Svelte Advanced Best Practices
+
+## Advanced Component Structure & Architecture
+- Keep components small and focused with proper single responsibility
+- Use proper TypeScript integration with comprehensive typing
+- Implement proper props typing with comprehensive validation
+- Use proper event dispatching with comprehensive error handling
+- Keep markup clean and readable with proper organization
+- Use proper slot implementation with comprehensive flexibility
+- Implement proper component composition with comprehensive patterns
+- Use proper component inheritance with comprehensive abstraction
+- Implement proper component lifecycle management with comprehensive hooks
+- Use proper component testing with comprehensive coverage
+
+## Advanced Reactivity & State Management
+- Use proper reactive declarations with comprehensive optimization
+- Implement proper stores with comprehensive state management
+- Use proper reactive statements with comprehensive performance
+- Handle derived values properly with comprehensive caching
+- Use proper lifecycle functions with comprehensive management
+- Implement proper bindings with comprehensive validation
+- Use proper state persistence with comprehensive synchronization
+- Implement proper state validation with comprehensive error handling
+- Use proper state monitoring with comprehensive analytics
+- Implement proper state backup and recovery strategies
+
+## Advanced State Management Patterns
+- Use proper Svelte stores with comprehensive organization
+- Keep stores modular with proper separation of concerns
+- Use proper derived stores with comprehensive optimization
+- Implement proper actions with comprehensive error handling
+- Handle async state properly with comprehensive loading states
+- Use proper store subscriptions with comprehensive cleanup
+- Implement proper store persistence with comprehensive synchronization
+- Use proper store validation with comprehensive error handling
+- Implement proper store monitoring with comprehensive analytics
+- Use proper store testing with comprehensive coverage
+
+## Advanced Performance & Optimization
+- Use proper component lazy loading with comprehensive optimization
+- Implement proper transitions with comprehensive performance
+- Use proper animations with comprehensive optimization
+- Avoid unnecessary reactivity with comprehensive optimization
+- Use proper event forwarding with comprehensive performance
+- Implement proper key blocks with comprehensive optimization
+- Use proper memoization with comprehensive caching strategies
+- Implement proper code splitting with comprehensive optimization
+- Use proper bundle optimization with comprehensive analysis
+- Implement proper performance monitoring and alerting
+
+## Advanced Routing & Navigation (SvelteKit)
+- Use SvelteKit for routing with comprehensive configuration
+- Implement proper layouts with comprehensive organization
+- Use proper route parameters with comprehensive validation
+- Handle loading states properly with comprehensive UX
+- Implement proper error pages with comprehensive error handling
+- Use proper navigation methods with comprehensive accessibility
+- Implement proper route guards with comprehensive security
+- Use proper route transitions with comprehensive animations
+- Implement proper route caching with comprehensive optimization
+- Use proper route monitoring and analytics
+
+## Advanced Forms & User Experience
+- Use proper form bindings with comprehensive validation
+- Implement proper validation with comprehensive error handling
+- Handle form submission properly with comprehensive loading states
+- Show proper loading states with comprehensive UX patterns
+- Use proper error handling with comprehensive user feedback
+- Implement proper form reset with comprehensive state management
+- Use proper form accessibility with comprehensive compliance
+- Implement proper form analytics with comprehensive tracking
+- Use proper form security with comprehensive protection
+- Implement proper form testing with comprehensive coverage
+
+## Advanced TypeScript Integration
+- Use proper component types with comprehensive typing
+- Implement proper prop types with comprehensive validation
+- Use proper event types with comprehensive error handling
+- Handle proper type inference with comprehensive optimization
+- Use proper store types with comprehensive typing
+- Implement proper action types with comprehensive validation
+- Use proper interface definitions with comprehensive documentation
+- Implement proper type guards with comprehensive validation
+- Use proper generic types with comprehensive flexibility
+- Implement proper type testing with comprehensive coverage
+
+## Advanced Testing & Quality Assurance
+- Write proper unit tests with comprehensive coverage
+- Implement proper component tests with comprehensive scenarios
+- Use proper testing libraries with comprehensive features
+- Test stores properly with comprehensive state testing
+- Implement proper mocking with comprehensive test isolation
+- Test async operations with comprehensive error handling
+- Implement proper E2E testing with comprehensive scenarios
+- Use proper performance testing and benchmarking
+- Implement proper accessibility testing and compliance
+- Use proper test automation and CI/CD integration
+
+## Advanced Best Practices & Standards
+- Follow Svelte style guide with comprehensive consistency
+- Use proper naming conventions with comprehensive standards
+- Keep components organized with proper structure
+- Implement proper error handling with comprehensive recovery
+- Use proper event handling with comprehensive patterns
+- Document complex logic with comprehensive examples
+- Implement proper code review and quality gates
+- Use proper version control and change management
+- Implement proper team collaboration and communication
+- Use proper project management and tracking
+
+## Advanced Build & Tooling
+- Use Vite for development with comprehensive configuration
+- Configure proper build setup with comprehensive optimization
+- Use proper environment variables with comprehensive management
+- Implement proper code splitting with comprehensive optimization
+- Use proper asset handling with comprehensive optimization
+- Configure proper optimization with comprehensive performance
+- Implement proper bundling with comprehensive analysis
+- Use proper source maps with comprehensive debugging
+- Implement proper caching with comprehensive invalidation
+- Use proper monitoring and alerting
+
+## Advanced Integration & Ecosystem
+- Use proper framework integration with comprehensive features
+- Implement proper UI library integration with comprehensive components
+- Use proper state management integration with comprehensive patterns
+- Implement proper testing integration with comprehensive coverage
+- Use proper build tool integration with comprehensive optimization
+- Implement proper deployment integration with comprehensive automation
+- Use proper monitoring integration with comprehensive analytics
+- Implement proper analytics integration with comprehensive tracking
+- Use proper payment integration with comprehensive security
+- Implement proper email integration with comprehensive features 

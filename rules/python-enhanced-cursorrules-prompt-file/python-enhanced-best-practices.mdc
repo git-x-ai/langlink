@@ -1,0 +1,177 @@
+---
+description: Python best practices and patterns for modern software development - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.py, src/**/*.py, tests/**/*.py, app/**/*.py, api/**/*.py
+---
+
+# Python Advanced Best Practices
+
+## Advanced Project Structure & Architecture
+- Use src-layout with `src/your_package_name/` for proper package organization
+- Place tests in `tests/` directory parallel to `src/` with proper structure
+- Keep configuration in `config/` or as environment variables with proper validation
+- Store requirements in `requirements.txt` or `pyproject.toml` with proper versioning
+- Place static files in `static/` directory with proper organization
+- Use `templates/` for Jinja2 templates with proper inheritance
+- Implement proper microservice architecture when appropriate
+- Use proper domain-driven design patterns
+- Implement proper clean architecture principles
+- Use proper dependency injection patterns
+
+## Advanced Code Style & Quality
+- Follow Black code formatting with proper configuration
+- Use isort for import sorting with proper configuration
+- Follow PEP 8 naming conventions with proper consistency:
+  - snake_case for functions and variables
+  - PascalCase for classes
+  - UPPER_CASE for constants
+- Maximum line length of 88 characters (Black default)
+- Use absolute imports over relative imports
+- Implement proper code quality tools (flake8, pylint, mypy)
+- Use proper pre-commit hooks for code quality
+- Implement proper code review processes
+- Use proper static analysis tools
+- Implement proper code coverage requirements
+
+## Advanced Type Hints & Type Safety
+- Use comprehensive type hints for all function parameters and returns
+- Import types from `typing` module with proper organization
+- Use `Optional[Type]` instead of `Type | None` for compatibility
+- Use `TypeVar` for generic types with proper constraints
+- Define custom types in `types.py` with proper documentation
+- Use `Protocol` for duck typing with proper implementation
+- Implement proper type checking with mypy
+- Use proper type stubs for external libraries
+- Implement proper runtime type validation
+- Use proper type narrowing and guards
+
+## Advanced Flask & Web Framework Patterns
+- Use Flask factory pattern with proper configuration management
+- Organize routes using Blueprints with proper structure
+- Use Flask-SQLAlchemy for database with proper session management
+- Implement comprehensive error handlers with proper logging
+- Use Flask-Login for authentication with proper security
+- Structure views with proper separation of concerns
+- Implement proper middleware and decorators
+- Use proper request/response validation
+- Implement proper API versioning strategies
+- Use proper async patterns with Flask-AsyncIO
+
+## Advanced Database & ORM Patterns
+- Use SQLAlchemy ORM with proper session management
+- Implement database migrations with Alembic and proper versioning
+- Use proper connection pooling with monitoring
+- Define models in separate modules with proper relationships
+- Implement proper database indexing strategies
+- Use proper database query optimization
+- Implement proper database monitoring and alerting
+- Use proper database backup and recovery strategies
+- Implement proper database security and access control
+- Use proper database performance tuning
+
+## Advanced Authentication & Security
+- Use Flask-Login for session management with proper security
+- Implement OAuth2/JWT authentication with proper validation
+- Hash passwords with bcrypt and proper salt management
+- Use proper session security with secure cookies
+- Implement comprehensive CSRF protection
+- Use proper role-based access control with permissions
+- Implement proper API key management
+- Use proper security headers and CORS policies
+- Implement proper input validation and sanitization
+- Use proper security monitoring and logging
+
+## Advanced API Design & REST Patterns
+- Use Flask-RESTful for REST APIs with proper structure
+- Implement comprehensive request validation with proper error handling
+- Use proper HTTP status codes with consistent patterns
+- Handle errors consistently with proper error responses
+- Use proper response formats with proper serialization
+- Implement proper rate limiting with monitoring
+- Use proper API documentation with OpenAPI/Swagger
+- Implement proper API versioning and backward compatibility
+- Use proper API testing and monitoring
+- Implement proper API analytics and usage tracking
+
+## Comprehensive Testing Strategy
+- Use pytest for testing with proper configuration
+- Write comprehensive tests for all routes and functions
+- Use pytest-cov for coverage with proper thresholds
+- Implement proper fixtures with proper scope management
+- Use proper mocking with pytest-mock and proper isolation
+- Test all error scenarios with proper edge cases
+- Implement proper integration testing with test databases
+- Use proper E2E testing with proper test data
+- Implement proper performance testing and benchmarking
+- Use proper test automation and CI/CD integration
+
+## Advanced Security & Compliance
+- Use HTTPS in production with proper certificate management
+- Implement comprehensive CORS policies with proper configuration
+- Sanitize all user inputs with proper validation
+- Use proper session configuration with secure settings
+- Implement comprehensive logging with proper security
+- Follow OWASP guidelines with proper implementation
+- Implement proper security headers and policies
+- Use proper dependency scanning and vulnerability management
+- Implement proper security monitoring and alerting
+- Use proper compliance frameworks (GDPR, SOC2, etc.)
+
+## Advanced Performance & Scalability
+- Use proper caching with Flask-Caching and Redis
+- Implement database query optimization with proper monitoring
+- Use proper connection pooling with proper configuration
+- Implement proper pagination with efficient queries
+- Use background tasks for heavy operations with proper queuing
+- Monitor application performance with proper metrics
+- Implement proper load balancing and scaling strategies
+- Use proper CDN and static asset optimization
+- Implement proper database sharding and partitioning
+- Use proper performance profiling and optimization
+
+## Advanced Error Handling & Resilience
+- Create comprehensive custom exception classes with proper hierarchy
+- Use proper try-except blocks with specific exception handling
+- Implement comprehensive logging with proper levels
+- Return proper error responses with consistent formats
+- Handle edge cases properly with graceful degradation
+- Use proper error messages with internationalization
+- Implement proper retry mechanisms with exponential backoff
+- Use proper circuit breaker patterns for external services
+- Implement proper health checks and monitoring
+- Use proper error tracking and alerting (Sentry, etc.)
+
+## Advanced Documentation & Knowledge Management
+- Use Google-style docstrings with comprehensive examples
+- Document all public APIs with proper examples
+- Keep README.md updated with proper installation instructions
+- Use proper inline comments with clear explanations
+- Generate comprehensive API documentation with proper tools
+- Document environment setup with proper configuration
+- Implement proper code documentation standards
+- Use proper architectural decision records (ADRs)
+- Implement proper knowledge sharing and documentation
+- Use proper documentation automation and maintenance
+
+## Advanced Development Workflow & DevOps
+- Use virtual environments (venv) with proper management
+- Implement comprehensive pre-commit hooks with proper checks
+- Use proper Git workflow with proper branching strategies
+- Follow semantic versioning with proper changelog management
+- Use proper CI/CD practices with comprehensive testing
+- Implement comprehensive logging with proper levels
+- Use proper environment management and configuration
+- Implement proper monitoring and alerting
+- Use proper backup and disaster recovery strategies
+- Implement proper team collaboration and communication tools
+
+## Advanced Dependencies & Package Management
+- Pin dependency versions with proper version constraints
+- Use requirements.txt for production with proper organization
+- Separate dev dependencies with proper categorization
+- Use proper package versions with security considerations
+- Regularly update dependencies with proper testing
+- Check for security vulnerabilities with proper scanning
+- Use proper dependency management tools (pipenv, poetry)
+- Implement proper dependency auditing and compliance
+- Use proper package signing and verification
+- Implement proper dependency caching and optimization

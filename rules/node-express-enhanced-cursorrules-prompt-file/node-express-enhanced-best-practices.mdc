@@ -1,0 +1,138 @@
+---
+description: Node.js and Express.js best practices for backend development - Enhanced with advanced patterns, enterprise practices, and production-ready strategies
+globs: **/*.js, **/*.ts, src/**/*.ts, src/**/*.js, app/**/*.js, app/**/*.ts, server/**/*.js, server/**/*.ts
+---
+
+# Node.js & Express.js Advanced Best Practices
+
+## Advanced Project Structure & Architecture
+- Use proper directory structure with comprehensive organization
+- Implement proper module organization with comprehensive separation of concerns
+- Use proper middleware organization with comprehensive error handling
+- Keep routes organized by domain with proper API versioning
+- Implement proper error handling with comprehensive recovery strategies
+- Use proper configuration management with environment variables
+- Implement proper microservice architecture when appropriate
+- Use proper clean architecture principles with proper layers
+- Implement proper domain-driven design patterns
+- Use proper hexagonal architecture with proper ports and adapters
+
+## Advanced Express Setup & Configuration
+- Use proper middleware setup with comprehensive error handling
+- Implement proper routing with comprehensive organization
+- Use proper error handling with comprehensive recovery strategies
+- Configure proper security middleware with comprehensive protection
+- Implement proper validation with comprehensive error handling
+- Use proper static file serving with comprehensive optimization
+- Implement proper CORS configuration with comprehensive security
+- Use proper compression middleware with comprehensive optimization
+- Implement proper rate limiting with comprehensive monitoring
+- Use proper logging middleware with comprehensive analytics
+
+## Advanced API Design & REST Patterns
+- Use proper REST principles with comprehensive resource modeling
+- Implement proper versioning with backward compatibility
+- Use proper request validation with comprehensive error handling
+- Handle errors properly with comprehensive error responses
+- Implement proper response formats with comprehensive serialization
+- Document APIs properly with comprehensive OpenAPI/Swagger
+- Implement proper API analytics with comprehensive usage tracking
+- Use proper API security with comprehensive protection
+- Implement proper API testing with comprehensive coverage
+- Use proper API monitoring with comprehensive alerting
+
+## Advanced Database Integration & ORM Patterns
+- Use proper ORM/ODM with comprehensive configuration
+- Implement proper migrations with version control and rollback
+- Use proper connection pooling with monitoring and optimization
+- Implement proper transactions with proper isolation levels
+- Use proper query optimization with comprehensive profiling
+- Handle database errors properly with comprehensive error handling
+- Implement proper database monitoring and alerting
+- Use proper database security with comprehensive protection
+- Implement proper database backup and recovery strategies
+- Use proper database performance tuning and optimization
+
+## Advanced Authentication & Authorization
+- Implement proper JWT handling with comprehensive security
+- Use proper password hashing with proper salt management
+- Implement proper session management with comprehensive security
+- Use proper OAuth integration with comprehensive configuration
+- Implement proper role-based access control with permissions
+- Handle auth errors properly with comprehensive error handling
+- Implement proper multi-factor authentication when needed
+- Use proper API key management with comprehensive security
+- Implement proper user management with comprehensive features
+- Use proper security monitoring and alerting
+
+## Advanced Security & Best Practices
+- Use proper CORS setup with comprehensive configuration
+- Implement proper rate limiting with comprehensive monitoring
+- Use proper security headers with comprehensive policies
+- Implement proper input validation with comprehensive sanitization
+- Use proper encryption with comprehensive key management
+- Handle security vulnerabilities with comprehensive assessment
+- Implement proper vulnerability scanning with comprehensive remediation
+- Use proper security testing and penetration testing
+- Implement proper compliance and regulatory requirements
+- Use proper incident response and recovery procedures
+
+## Advanced Performance & Optimization
+- Use proper caching with comprehensive invalidation strategies
+- Implement proper async operations with comprehensive error handling
+- Use proper connection pooling with comprehensive optimization
+- Implement proper logging with comprehensive monitoring
+- Use proper monitoring with comprehensive alerting
+- Handle high traffic properly with comprehensive scaling strategies
+- Implement proper load balancing with comprehensive strategies
+- Use proper CDN integration with comprehensive optimization
+- Implement proper performance testing and benchmarking
+- Use proper performance monitoring and alerting
+
+## Advanced Testing & Quality Assurance
+- Write proper unit tests with comprehensive coverage
+- Implement proper integration testing with comprehensive scenarios
+- Use proper test runners with comprehensive features
+- Implement proper mocking with comprehensive test isolation
+- Test error scenarios with comprehensive edge cases
+- Use proper test coverage with comprehensive reporting
+- Implement proper E2E testing with comprehensive scenarios
+- Use proper performance testing and benchmarking
+- Implement proper security testing and vulnerability assessment
+- Use proper test automation and CI/CD integration
+
+## Advanced Deployment & DevOps
+- Use proper Docker setup with comprehensive optimization
+- Implement proper CI/CD with comprehensive testing and deployment
+- Use proper environment variables with comprehensive management
+- Configure proper logging with comprehensive monitoring
+- Implement proper monitoring with comprehensive alerting
+- Handle deployment errors with comprehensive error handling
+- Implement proper container orchestration with comprehensive scaling
+- Use proper infrastructure as code with comprehensive automation
+- Implement proper backup and disaster recovery strategies
+- Use proper security scanning and compliance monitoring
+
+## Advanced Best Practices & Standards
+- Follow Node.js best practices with comprehensive consistency
+- Use proper async/await with comprehensive error handling
+- Implement proper error handling with comprehensive recovery
+- Use proper logging with comprehensive monitoring
+- Handle process signals properly with comprehensive graceful shutdown
+- Document code properly with comprehensive examples
+- Implement proper code review and quality gates
+- Use proper version control and change management
+- Implement proper team collaboration and communication
+- Use proper project management and tracking
+
+## Advanced Integration & Ecosystem
+- Use proper framework integration with comprehensive features
+- Implement proper database integration with comprehensive data management
+- Use proper caching integration with comprehensive invalidation
+- Implement proper monitoring integration with comprehensive analytics
+- Use proper logging integration with comprehensive aggregation
+- Implement proper authentication integration with comprehensive security
+- Use proper payment integration with comprehensive security
+- Implement proper email integration with comprehensive features
+- Use proper file storage integration with comprehensive optimization
+- Implement proper API integration with comprehensive error handling 

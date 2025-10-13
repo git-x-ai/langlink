@@ -1,0 +1,127 @@
+---
+description: Comprehensive code quality guidelines and best practices for professional software development - Enhanced with advanced patterns, enterprise practices, and quality assurance strategies
+globs: **/*.{js,ts,jsx,tsx,py,java,cpp,c,cs,php,rb,go,rs,swift,kt}
+alwaysApply: true
+---
+
+# Code Quality Advanced Guidelines
+
+## Information Verification & Accuracy
+- Always verify information before presenting it with proper fact-checking
+- Do not make assumptions or speculate without clear evidence
+- Use proper source validation and cross-referencing
+- Implement proper data integrity checks and validation
+- Use proper error handling for invalid or missing data
+- Implement proper logging and audit trails for information changes
+- Use proper version control and change tracking
+- Implement proper documentation and knowledge management
+- Use proper testing and validation for information accuracy
+- Implement proper compliance and regulatory requirements
+
+## Systematic File-by-File Development
+- Make changes file by file with proper testing and validation
+- Provide clear feedback and review opportunities for each change
+- Implement proper change management and approval processes
+- Use proper version control and branching strategies
+- Implement proper code review and quality gates
+- Use proper testing and validation for each change
+- Implement proper rollback and recovery procedures
+- Use proper documentation and change tracking
+- Implement proper team communication and collaboration
+- Use proper project management and tracking
+
+## Professional Communication Standards
+- Never use apologies in professional communication
+- Maintain professional tone and language throughout
+- Use proper technical terminology and industry standards
+- Implement proper communication protocols and standards
+- Use proper documentation and knowledge sharing
+- Implement proper feedback and review processes
+- Use proper conflict resolution and problem-solving
+- Implement proper team collaboration and communication
+- Use proper project management and tracking
+- Implement proper quality assurance and standards
+
+## Focused Development Practices
+- Avoid giving feedback about understanding in comments or documentation
+- Focus on actionable improvements and specific recommendations
+- Use proper code review and quality assessment
+- Implement proper testing and validation strategies
+- Use proper performance optimization and monitoring
+- Implement proper security and compliance requirements
+- Use proper accessibility and usability standards
+- Implement proper documentation and knowledge management
+- Use proper team collaboration and communication
+- Implement proper project management and tracking
+
+## Code Preservation & Integrity
+- Don't suggest whitespace changes unless specifically requested
+- Preserve existing code structure and functionality
+- Don't remove unrelated code or functionalities
+- Pay attention to preserving existing structures and patterns
+- Use proper refactoring and code improvement strategies
+- Implement proper testing and validation for changes
+- Use proper version control and change tracking
+- Implement proper code review and quality gates
+- Use proper documentation and knowledge sharing
+- Implement proper team collaboration and communication
+
+## Efficient Development Workflow
+- Don't summarize changes made unless specifically requested
+- Don't invent changes other than what's explicitly requested
+- Don't ask for confirmation of information already provided
+- Provide all edits in a single chunk instead of multiple-step instructions
+- Don't ask the user to verify implementations that are visible in context
+- Don't suggest updates when there are no actual modifications needed
+- Always provide links to real files, not placeholder references
+- Don't show or discuss current implementation unless specifically requested
+- Use proper project management and tracking
+- Implement proper quality assurance and standards
+
+## Advanced Quality Assurance Strategies
+- Implement comprehensive testing strategies with proper coverage
+- Use proper code review processes and quality gates
+- Implement proper static analysis and code quality tools
+- Use proper performance testing and optimization
+- Implement proper security testing and vulnerability assessment
+- Use proper accessibility testing and compliance
+- Implement proper usability testing and user experience
+- Use proper integration testing and system validation
+- Implement proper load testing and performance benchmarking
+- Use proper monitoring and alerting systems
+
+## Advanced Development Standards
+- Implement proper coding standards and style guides
+- Use proper documentation and knowledge management
+- Implement proper version control and change management
+- Use proper CI/CD pipelines and automation
+- Implement proper environment management and configuration
+- Use proper dependency management and security scanning
+- Implement proper monitoring and alerting systems
+- Use proper backup and disaster recovery strategies
+- Implement proper team collaboration and communication
+- Use proper project management and tracking
+
+## Advanced Security & Compliance
+- Implement proper security testing and vulnerability assessment
+- Use proper compliance and regulatory requirements
+- Implement proper data protection and privacy requirements
+- Use proper authentication and authorization patterns
+- Implement proper encryption and secure communication
+- Use proper security monitoring and alerting
+- Implement proper incident response and recovery
+- Use proper security documentation and training
+- Implement proper risk assessment and management
+- Use proper security audit and compliance reporting
+
+## Advanced Performance & Optimization
+- Implement proper performance monitoring and profiling
+- Use proper memory management and optimization
+- Implement proper CPU optimization and parallel processing
+- Use proper I/O optimization and caching strategies
+- Implement proper database query optimization
+- Use proper network optimization and compression
+- Implement proper bundle optimization and tree shaking
+- Use proper lazy loading and code splitting
+- Implement proper CDN and static asset optimization
+- Use proper performance testing and benchmarking
